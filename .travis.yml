@@ -2,12 +2,13 @@ sudo: false
 language: node_js
 node_js:
   - '0.10'
-  - '0.12'
-  - '4'
   - '5'
+  - '4'
+  - '0.12'
 branches:
-  only:
-    - master
+    only:
+      - master
 notifications:
-  email:
-    - rod@vagg.org
+    email:
+      - rod@vagg.org
+dist: precise
